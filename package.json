@@ -2,7 +2,7 @@
   "name": "react-class-mixin",
   "version": "0.0.2",
   "description": "Adds mixin support to React components that are declared as ES6 classes",
-  "main": "index.es6",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha --require babel-core/register",
     "dist": "./node_modules/.bin/babel index.es6 --out-file dist/index.js",
